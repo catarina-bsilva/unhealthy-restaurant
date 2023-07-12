@@ -1,0 +1,104 @@
+@use 'variables'
+
+//Geral
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box 
+
+//Parallax
+#Healthy
+    min-height: 100vh
+    height: 100vh
+    background-image: url('/img/Healthy.png')
+    background-repeat: no-repeat
+    background-size: cover
+    position: relative
+    background-attachment: fixed
+
+    h1
+        font-family: variables.$TipoLetraTitulo
+        font-size: 130px
+        display: inline-block
+        position: absolute
+        top: 50%
+        left: 50%
+        translate: -50% -50%
+
+    .link
+        background-color: variables.$Cor4
+        font-family: variables.$TipoLetraSite
+        text-decoration: none
+        color: variables.$Cor1
+        padding: 15px 25px
+        font-size: 20px
+        text-align: center
+        display: flex
+        width: 200px
+        opacity: .9
+        border-radius: 10px
+        position: absolute
+        top: 58%
+        left: 55%
+        transition: .3s
+
+    .link:hover
+        background-color: variables.$Cor1
+        color: variables.$Cor4
+
+    .VerPedidos
+        background-color: transparent
+        color: variables.$Cor4
+        position: absolute
+        top: 3%
+        left: 90%
+        translate: -25%
+
+#Unhealthy
+    min-height: 100vh
+    height: 100vh
+    background-image: url('/img/Unhealthy.png')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position-y: -200px
+    position: relative
+    background-attachment: fixed
+
+    h1
+        font-family: variables.$TipoLetraTitulo
+        font-size: 130px
+        display: inline-block
+        position: absolute
+        top: 50%
+        left: 50%
+        translate: -50% -50%
+
+    .link
+        background-color: variables.$Cor4
+        font-family: variables.$TipoLetraSite
+        text-decoration: none
+        color: variables.$Cor1
+        padding: 15px 25px
+        font-size: 20px
+        text-align: center
+        display: flex
+        width: 200px
+        opacity: .9
+        border-radius: 10px
+        position: absolute
+        top: 58%
+        left: 55%
+        transition: .3s
+
+    .link:hover
+        background-color: variables.$Cor1
+        color: variables.$Cor4
+        
+    .VerPedidos
+        background-color: transparent
+        color: variables.$Cor4
+        position: absolute
+        top: 3%
+        left: 90%
+        translate: -25%
+    

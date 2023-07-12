@@ -1,0 +1,134 @@
+@use 'variables'
+    
+//Geral
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+#PedidosGeral
+    min-height: 96.4vh
+
+//Cabeçalho
+.Voltar
+    background-color: transparent
+    color: variables.$Cor4
+    position: absolute
+    top: 3%
+    left: 90%
+    translate: -25%
+    text-decoration: none
+    font-family: variables.$TipoLetraSite
+    font-size: 1.2rem
+
+.Voltar:hover
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: variables.$Cor1
+    color: variables.$Cor4
+    width: 150px
+    height: 2.5rem
+    border-radius: 10px
+    translate: -50px -5px
+
+//Corpo
+#Container
+
+    p
+        margin: 8px
+
+    h2
+        font-size: 1.2rem
+    
+.NrPedido
+    width: 100px
+    height: 60px
+    border: 1px solid black
+    display: flex
+    justify-content: center
+    align-items: center
+    direction: row
+    text-align: center
+    line-height: 1.8rem
+
+.Mesa
+    width: 80px
+    height: 60px
+    border: 1px solid black
+    display: flex
+    direction: row
+    justify-content: center
+    align-items: center
+    line-height: 1.8rem
+    text-align: center
+
+.Pedido
+    width: 335px
+    height: 60px
+    border: 1px solid black
+    display: flex
+    justify-content: center
+    align-items: center
+    direction: row
+    line-height: 1.8rem
+       
+.Estado
+    width: 123px
+    height: 60px
+    border: 1px solid black
+    display: flex
+    justify-content: center
+    align-items: center
+    direction: row
+    line-height: 1.8rem
+
+.item
+    position: relative
+    max-width: 335px
+    display: inline-block
+    max-height: 30px
+    margin-right: 11px
+    font-size: 0.8rem
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    vertical-align: middle
+    padding-left: 5px
+
+    svg
+        font-size: 1.2rem
+        vertical-align: middle
+        margin-right: 5px
+        margin-left: 5px
+        cursor: pointer
+        transition: .3s
+
+    svg:hover
+        color: variables.$Cor1
+
+select
+    background-color: variables.$Cor2
+
+//PopUp
+#PopUp
+    visibility: hidden
+    width: 400px
+    height: 200px
+    position: absolute
+    z-index: 1
+    top: 50%
+    left: 50%
+    translate: -50% -50%
+    background-color: variables.$Cor1
+    border: 2px solid variables.$Cor3
+    font-size: 1rem
+    padding: 10px
+    border-radius: 10px
+
+#PopUp.Show
+    visibility: visible
+
+pre
+    font-family: variables.$TipoLetraSite
+    

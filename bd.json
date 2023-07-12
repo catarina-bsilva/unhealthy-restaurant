@@ -1,0 +1,614 @@
+{
+  "Menus": {
+    "Unhealthy": [
+      {
+        "Hamburgeres": [
+          {
+            "id": 1,
+            "Nome": "Hamburguer Simples",
+            "Descrição": "Pão, hamburguer, queijo e fiambre",
+            "Preço": 3.7
+          },
+          {
+            "id": 2,
+            "Nome": "Hamburguer Americano",
+            "Descrição": "Pão, hamburguer, queijo, bacon, tomate, alface e ovo",
+            "Preço": 4.7
+          },
+          {
+            "id": 3,
+            "Nome": "Hamburguer Deluxe ",
+            "Descrição": "Pão, hamburguer, queijo e fiambre, batata palha, molho de francesinha",
+            "Preço": 5.7
+          },
+          {
+            "id": 4,
+            "Nome": "Hamburguer Duplex ",
+            "Descrição": "Pão, 2 hamburgueres, queijo e fiambre, bacon, tomate, alface e ovo ",
+            "Preço": 5.7
+          }
+        ]
+      },
+      {
+        "Cachorros": [
+          {
+            "id": 5,
+            "Nome": "Cachorro Simples",
+            "Descrição": "Pão, salsicha",
+            "Preço": 3
+          },
+          {
+            "id": 6,
+            "Nome": "Cachorro Misto",
+            "Descrição": "Pão, salsicha, queijo, fiambre",
+            "Preço": 3.7
+          },
+          {
+            "id": 7,
+            "Nome": "Cachorro Deluxe ",
+            "Descrição": "Pão, salsicha, queijo e fiambre, batata palha, molho de francesinha",
+            "Preço": 5.7
+          }
+        ]
+      },
+      {
+        "Francesinhas": [
+          {
+            "id": 8,
+            "Nome": "Francesinha Simples",
+            "Descrição": "Pão, bife, salsischa fresca, bacon, queijo, fiambre, molho",
+            "Preço": 6
+          },
+          {
+            "id": 9,
+            "Nome": "Francesinha com ovo",
+            "Descrição": "Pão, bife, salsischa fresca, bacon, queijo, fiambre, ovo, molho",
+            "Preço": 6.5
+          },
+          {
+            "id": 10,
+            "Nome": "Francesinha Deluxe ",
+            "Descrição": "Pão, bife, salsischa fresca, bacon, queijo, fiambre, ovo, molho, batata frita",
+            "Preço": 7.5
+          }
+        ]
+      },
+      {
+        "Acompanhamentos": [
+          {
+            "id": 11,
+            "Nome": "Batata Frita Pequena",
+            "Preço": 2
+          },
+          {
+            "id": 12,
+            "Nome": "Batata Frita Grande",
+            "Preço": 3.5
+          },
+          {
+            "id": 13,
+            "Nome": "Salada Mista",
+            "Descrição": "Alface, Cenoura, Tomate, Pepino",
+            "Preço": 2.5
+          },
+          {
+            "id": 14,
+            "Nome": "Arroz Branco",
+            "Preço": 2.5
+          }
+        ]
+      },
+      {
+        "Extras": [
+          {
+            "id": 15,
+            "Nome": "Batata Palha",
+            "Preço": 0.5
+          },
+          {
+            "id": 16,
+            "Nome": "Queijo",
+            "Preço": 0.5
+          },
+          {
+            "id": 17,
+            "Nome": "Fiambre",
+            "Preço": 0.5
+          },
+          {
+            "id": 18,
+            "Nome": "Bacon",
+            "Preço": 0.5
+          },
+          {
+            "id": 19,
+            "Nome": "Cebola",
+            "Preço": 0.5
+          },
+          {
+            "id": 20,
+            "Nome": "Ovo",
+            "Preço": 0.5
+          },
+          {
+            "id": 21,
+            "Nome": "Tomate",
+            "Preço": 0.5
+          },
+          {
+            "id": 22,
+            "Nome": "Alface",
+            "Preço": 0.5
+          }
+        ]
+      },
+      {
+        "Sobremesas": [
+          {
+            "id": 23,
+            "Nome": "Bolo Chocolate",
+            "Preço": 2.7
+          },
+          {
+            "id": 24,
+            "Nome": "Tarte de Bolacha",
+            "Preço": 2.7
+          },
+          {
+            "id": 25,
+            "Nome": "Crepe de Nutela",
+            "Preço": 3.7
+          },
+          {
+            "id": 26,
+            "Nome": "Crepe com bola de gelado",
+            "Preço": 3.7
+          },
+          {
+            "id": 27,
+            "Nome": "Crepe com duas bolas de gelado",
+            "Preço": 4.5
+          },
+          {
+            "id": 28,
+            "Nome": "Crepe de Nutela com duas bolas de gelado",
+            "Preço": 5
+          }
+        ]
+      },
+      {
+        "Bebidas": [
+          {
+            "id": 29,
+            "Nome": "Agua s/ gás 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 30,
+            "Nome": "Agua s/ gás 0.50",
+            "Preço": 1.2
+          },
+          {
+            "id": 31,
+            "Nome": "Coca Cola 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 32,
+            "Nome": "Ice Tea Limão 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 33,
+            "Nome": "Ice Tea Pessego 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 34,
+            "Nome": "Fanta 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 35,
+            "Nome": "Compal Pêra 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 36,
+            "Nome": "Compal Pessego 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 37,
+            "Nome": "Compal Manga Laranja 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 38,
+            "Nome": "Compal Frutos Vermelhos 0.33",
+            "Preço": 1
+          },
+          {
+            "id": 39,
+            "Nome": "Somersby 0.5",
+            "Preço": 1.5
+          },
+          {
+            "id": 40,
+            "Nome": "Somersby Fritos Vermelhor 0.5",
+            "Preço": 1.5
+          },
+          {
+            "id": 41,
+            "Nome": "Super 0.33",
+            "Preço": 1.2
+          },
+          {
+            "id": 42,
+            "Nome": "Fino",
+            "Preço": 1
+          },
+          {
+            "id": 43,
+            "Nome": "Caneca",
+            "Preço": 1.3
+          },
+          {
+            "id": 44,
+            "Nome": "Panache",
+            "Preço": 1.1
+          }
+        ]
+      },
+      {
+        "Bebidas Quentes": [
+          {
+            "id": 45,
+            "Nome": "Café",
+            "Preço": 1
+          },
+          {
+            "id": 46,
+            "Nome": "Carioca de limão",
+            "Preço": 0.7
+          },
+          {
+            "id": 47,
+            "Nome": "Chá",
+            "Preço": 1.1
+          },
+          {
+            "id": 48,
+            "Nome": "Meia de leite",
+            "Preço": 1.3
+          },
+          {
+            "id": 49,
+            "Nome": "Descafeinado",
+            "Preço": 1
+          },
+          {
+            "id": 50,
+            "Nome": "Chocolate Quente",
+            "Preço": 1.5
+          }
+        ]
+      }
+    ],
+    "Healthy": [
+      {
+        "Bowls": [
+          {
+            "id": 51,
+            "Nome": "Bowl de Frango",
+            "Descrição": "Alface, Ananás, Milho, Tomate, Frango. Molho: Mostarda e Mel",
+            "Preço": 4.7
+          },
+          {
+            "id": 52,
+            "Nome": "Bowl Healthy",
+            "Descrição": "Fusilli, Legumes Assados, Tomate, Perú, Ovo, Azeitonas Pretas, Sementes de Chia. Molho: Pesto",
+            "Preço": 5.7
+          },
+          {
+            "id": 53,
+            "Nome": "Bowl de Salmão",
+            "Descrição": "Alface, Quinoa, Abacate, Pepino, Queijo Fresco, Salmão, Sementes Chia",
+            "Preço": 4.7
+          },
+          {
+            "id": 54,
+            "Nome": "Bowl Tropical",
+            "Descrição": "Alface, Quinoa, Tomate, Pepino, Mozarella, Camarão",
+            "Preço": 4.7
+          },
+          {
+            "id": 55,
+            "Nome": "Bowl Vegan",
+            "Descrição": "Trigo Sarraceno, Alface, Lentilhas, Cebola, Maçã, Cenoura, Sementes de Chia",
+            "Preço": 3.9
+          }
+        ]
+      },
+      {
+        "Sandes": [
+          {
+            "id": 56,
+            "Nome": "Sande de Atum",
+            "Descrição": "Pão Rústico: Alface, Cebola Roxa, Ovo, Atum",
+            "Preço": 4.5
+          },
+          {
+            "id": 57,
+            "Nome": "Sande de Salmão",
+            "Descrição": "Pão Cereais: Alface, Abacate, Queijo Fresco, Salmão",
+            "Preço": 4.5
+          },
+          {
+            "id": 58,
+            "Nome": "Sande Healthy",
+            "Descrição": "Pão Rústico: Frango, Queijo, Legumes Assados, Tomate",
+            "Preço": 4.5
+          },
+          {
+            "id": 59,
+            "Nome": "Bowl Tropical",
+            "Descrição": "Alface, Quinoa, Tomate, Pepino, Mozarella, Camarão",
+            "Preço": 4.7
+          }
+        ]
+      },
+      {
+        "Wraps": [
+          {
+            "id": 60,
+            "Nome": "Wrap Costa Rica",
+            "Descrição": "Tortilha, Peru, Legumes Assados, Azeitonas Verdes, Tomate",
+            "Preço": 5.3
+          },
+          {
+            "id": 61,
+            "Nome": "Wrap Acapulco",
+            "Descrição": "Tortilha, Salmão, Pepino, Abacate, Queijo Fresco",
+            "Preço": 5.3
+          },
+          {
+            "id": 62,
+            "Nome": "Wrap Cancun",
+            "Descrição": "Tortilha, Alface, Atum, Ovo, Cebola Roxa",
+            "Preço": 5.3
+          },
+          {
+            "id": 63,
+            "Nome": "Wrap Monterrei",
+            "Descrição": "Tortilha, Alface, Frango, Ananás, Cebola Roxa",
+            "Preço": 5.3
+          }
+        ]
+      },
+      {
+        "Extras": [
+          {
+            "id": 64,
+            "Nome": "Pepino",
+            "Preço": 0.5
+          },
+          {
+            "id": 65,
+            "Nome": "Abacate",
+            "Preço": 0.5
+          },
+          {
+            "id": 66,
+            "Nome": "Legumes Assados",
+            "Preço": 0.5
+          },
+          {
+            "id": 67,
+            "Nome": "Azeitonas Verdes",
+            "Preço": 0.5
+          },
+          {
+            "id": 68,
+            "Nome": "Cebola",
+            "Preço": 0.5
+          },
+          {
+            "id": 69,
+            "Nome": "Ovo",
+            "Preço": 0.5
+          },
+          {
+            "id": 70,
+            "Nome": "Tomate",
+            "Preço": 0.5
+          },
+          {
+            "id": 71,
+            "Nome": "Lentilhas",
+            "Preço": 0.5
+          },
+          {
+            "id": 72,
+            "Nome": "Cenoura",
+            "Preço": 0.5
+          },
+          {
+            "id": 73,
+            "Nome": "Sementes de Chia",
+            "Preço": 0.5
+          },
+          {
+            "id": 74,
+            "Nome": "Mozarella",
+            "Preço": 0.5
+          },
+          {
+            "id": 75,
+            "Nome": "Queijo Fresco",
+            "Preço": 0.5
+          },
+          {
+            "id": 76,
+            "Nome": "Frango",
+            "Preço": 0.7
+          },
+          {
+            "id": 77,
+            "Nome": "Atum",
+            "Preço": 0.7
+          },
+          {
+            "id": 78,
+            "Nome": "Salmão",
+            "Preço": 0.7
+          },
+          {
+            "id": 79,
+            "Nome": "Perú",
+            "Preço": 0.7
+          }
+        ]
+      },
+      {
+        "Sobremesas": [
+          {
+            "id": 80,
+            "Nome": "Salada de Fruta",
+            "Descrição": "Fruta variada",
+            "Preço": 3.3
+          },
+          {
+            "id": 81,
+            "Nome": "Healthy",
+            "Descrição": "Iogurte, Smoothie de Manga ou Açaí, Granola, Fruta",
+            "Preço": 4.5
+          },
+          {
+            "id": 82,
+            "Nome": "Pudim de Chia",
+            "Preço": 3.5
+          },
+          {
+            "id": 83,
+            "Nome": "Muffin de cenoura e laranja",
+            "Preço": 3.5
+          }
+        ]
+      },
+      {
+        "Sumos Naturais": [
+          {
+            "id": 84,
+            "Nome": "Limonada",
+            "Preço": 1.5
+          },
+          {
+            "id": 85,
+            "Nome": "Sumo de Cenoura e Maçã",
+            "Preço": 1.5
+          },
+          {
+            "id": 86,
+            "Nome": "Sumo de Frutos do Bosque",
+            "Preço": 1.5
+          },
+          {
+            "id": 87,
+            "Nome": "Sumo de Cenoura e Beterraba",
+            "Preço": 1.5
+          },
+          {
+            "id": 88,
+            "Nome": "Sumo de Manga Laranja",
+            "Preço": 1.5
+          },
+          {
+            "id": 89,
+            "Nome": "Sumo de Ananas e Maçã",
+            "Preço": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  "Pedidos": [
+    {
+      "mesa": "4",
+      "descricao": "1x Hamburguer Americano",
+      "pedidosEspeciais": "asdvsdvs",
+      "estado": "Recebido",
+      "id": 3
+    },
+    {
+      "mesa": "6",
+      "descricao": "5x Hamburguer Duplex",
+      "pedidosEspeciais": "",
+      "estado": "Entregue",
+      "id": 4
+    },
+    {
+      "mesa": "3",
+      "descricao": "1x Hamburguer Simples",
+      "pedidosEspeciais": "",
+      "estado": "A Preparar",
+      "id": 5
+    },
+    {
+      "mesa": "3",
+      "descricao": "2x Hamburguer Simples",
+      "pedidosEspeciais": "",
+      "estado": "Recebido",
+      "id": 6
+    },
+    {
+      "mesa": "8",
+      "descricao": "1x Francesinha Simples, 1x Francesinha com ovo, 1x Bolo Chocolate, 1x Crepe com duas bolas de gelado, 1x Somersby 0.5",
+      "pedidosEspeciais": "",
+      "estado": "Entregue",
+      "id": 7
+    },
+    {
+      "mesa": "4",
+      "descricao": "1x Hamburguer Duplex, 1x Tomate, 1x Crepe de Nutela",
+      "pedidosEspeciais": "",
+      "estado": "A Preparar",
+      "id": 8
+    },
+    {
+      "mesa": "9",
+      "descricao": "1x Bowl de Frango, 1x Sande de Salmão, 1x Salada de Fruta, 1x Healthy, 1x Limonada, 1x Sumo de Frutos do Bosque",
+      "pedidosEspeciais": "",
+      "estado": "Recebido",
+      "id": 9
+    },
+    {
+      "mesa": "12",
+      "descricao": "1x Francesinha Deluxe, 1x Fanta 0.33",
+      "pedidosEspeciais": "",
+      "estado": "Pendente",
+      "id": 10
+    },
+    {
+      "mesa": "15",
+      "descricao": "1x Cachorro Deluxe, 1x Compal Pessego 0.33, 1x Salada de Fruta",
+      "pedidosEspeciais": "",
+      "estado": "Pendente",
+      "id": 11
+    },
+    {
+      "mesa": "1",
+      "descricao": "1x Wrap Costa Rica, 1x Wrap Acapulco, 1x Pudim de Chia, 1x Muffin de cenoura e laranja, 1x Limonada, 1x Sumo de Manga Laranja",
+      "pedidosEspeciais": "",
+      "estado": "Pendente",
+      "id": 12
+    },
+    {
+      "mesa": "14",
+      "descricao": "2x Bowl Vegan, 1x Pudim de Chia, 1x Muffin de cenoura e laranja, 1x Sumo de Frutos do Bosque",
+      "pedidosEspeciais": "Bebidas com gelo",
+      "estado": "Pendente",
+      "id": 13
+    }
+  ]
+}
