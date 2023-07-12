@@ -131,7 +131,7 @@ const Formulario = () => {
     <div>
         <header>
             <h1>Fazer Pedido</h1>
-            <Link to="/Home" className='Voltar'>Voltar</Link>
+            <Link to="/unhealthy-restaurant/Home" className='Voltar'>Voltar</Link>
             <h3 id='MensagemPedido'>Pedido Criado com sucesso</h3>
         </header>
         <main>

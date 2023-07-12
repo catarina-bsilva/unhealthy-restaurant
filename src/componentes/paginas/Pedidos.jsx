@@ -93,7 +93,7 @@ const Pedidos = () => {
     <div id='PedidosGeral'>
       <header>
         <h1>Gerir Pedidos</h1>
-        <Link to="/Home" className='Voltar'>Voltar</Link>
+        <Link to="/unhealthy-restaurant/Home" className='Voltar'>Voltar</Link>
         <h3 id='MensagemPedido'>Pedido Apagado com sucesso</h3>
       </header>
       <main id='Container'>

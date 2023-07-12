@@ -5,7 +5,7 @@ import '../../styles/inicio.sass'
 const Inicio = () => {
   return (
     <div id='Inicio'>
-        <Link to="/Home"><img src="/img/logotipo.png" alt="Logotipo" /></Link>
+        <Link to="/unhealthy-restaurant/Home"><img src="/img/logotipo.png" alt="Logotipo" /></Link>
     </div>
   )
 }

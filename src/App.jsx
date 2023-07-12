@@ -7,14 +7,14 @@ function App() {
    <div>
     <div id='Healthy'>
       <h1>Healthy</h1>
-      <Link to="/Healthy" className='link'>Abrir Menu</Link>
-      <Link to="/GerirPedidos" className='VerPedidos link'>Ver pedidos</Link>
+      <Link to="/unhealthy-restaurant/Healthy" className='link'>Abrir Menu</Link>
+      <Link to="/unhealthy-restaurant/GerirPedidos" className='VerPedidos link'>Ver pedidos</Link>
       
     </div>
     <div id='Unhealthy'>
       <h1>Unhealthy</h1>
-      <Link to="/Unhealthy" className='link'>Abrir Menu</Link>
-      <Link to="/GerirPedidos" className='VerPedidos link'>Ver pedidos</Link>
+      <Link to="/unhealthy-restaurant/Unhealthy" className='link'>Abrir Menu</Link>
+      <Link to="/unhealthy-restaurant/GerirPedidos" className='VerPedidos link'>Ver pedidos</Link>
     </div>
    </div>
    
