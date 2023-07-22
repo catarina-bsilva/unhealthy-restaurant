@@ -21,7 +21,7 @@ const Unhealthy = () => {
 
     useEffect(() => {
       const GetMenu = async() => {
-        const Req = await fetch ('http://localhost:3000/Menus')
+        const Req = await fetch ('../../../bd.json/Menus')
         const Data = await Req.json()
 
         setMenu(Data.Unhealthy)
