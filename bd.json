@@ -534,13 +534,6 @@
   },
   "Pedidos": [
     {
-      "mesa": "4",
-      "descricao": "1x Hamburguer Americano",
-      "pedidosEspeciais": "asdvsdvs",
-      "estado": "Recebido",
-      "id": 3
-    },
-    {
       "mesa": "6",
       "descricao": "5x Hamburguer Duplex",
       "pedidosEspeciais": "",
