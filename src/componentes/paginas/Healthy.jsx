@@ -35,7 +35,7 @@ const Healthy = () => {
   return (
     <div id='Menu'>
       <header>
-        <h1>Menu Healthy <Link to="/Unhealthy"> <MdOutlineChangeCircle id='Change'/></Link></h1>
+        <h1>Menu Healthy <Link to="/unhealthy-restaurant/Unhealthy"> <MdOutlineChangeCircle id='Change'/></Link></h1>
           <Link to="/unhealthy-restaurant/FazerPedido" className='link' id='LinkPedido'><button id='Pedidobtn'>Fazer Pedido</button></Link>
           <Link to="/unhealthy-restaurant/Home" className='Voltar'>Voltar</Link>
       </header>

@@ -534,13 +534,6 @@
   },
   "Pedidos": [
     {
-      "mesa": "6",
-      "descricao": "5x Hamburguer Duplex",
-      "pedidosEspeciais": "",
-      "estado": "Entregue",
-      "id": 4
-    },
-    {
       "mesa": "3",
       "descricao": "1x Hamburguer Simples",
       "pedidosEspeciais": "",
@@ -602,6 +595,13 @@
       "pedidosEspeciais": "Bebidas com gelo",
       "estado": "Pendente",
       "id": 13
+    },
+    {
+      "mesa": "12",
+      "descricao": "2x Hamburguer Simples",
+      "pedidosEspeciais": "lalala",
+      "estado": "Entregue",
+      "id": 14
     }
   ]
 }

@@ -120,6 +120,11 @@ const Formulario = () => {
 
       Form.reset()
 
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+
       const Mensagem = document.getElementById('MensagemPedido')
       Mensagem.style.display = "block"
       setTimeout(() => {
