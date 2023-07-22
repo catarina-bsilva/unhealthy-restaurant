@@ -5,7 +5,7 @@ import { MdOutlineChangeCircle } from 'react-icons/md'
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from 'react-icons/ai'
 
 import '../../styles/paginas_menus.sass'
-
+import bd from '../../../bd.json'
 const Unhealthy = () => {
    
     const [Menu, setMenu] = useState([])
@@ -20,16 +20,9 @@ const Unhealthy = () => {
     }
 
     useEffect(() => {
-      const GetMenu = async() => {
-        const Req = await fetch ('../../../bd.json/Menus')
-        const Data = await Req.json()
-
-        setMenu(Data.Unhealthy)
-        setShowLista(new Array(Data.Unhealthy.length).fill(false))
-      }
-
-    GetMenu()
-    }, [])    
+      setMenu(bd.Menus.Healthy)
+      setShowLista(new Array(bd.Menus.Healthy.length).fill(false))
+    }, [])  
 
   return (
     <div id='Menu'>
